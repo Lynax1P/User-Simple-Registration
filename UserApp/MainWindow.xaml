@@ -18,11 +18,11 @@
                     <Button HorizontalAlignment="Left" Content="Регистрация"/>
                     <Button HorizontalAlignment="Right" Content="Вход" Style="{StaticResource MaterialDesignFlatButton}"/>
                 </Grid>
-                <TextBox materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}"></TextBox>
-                <PasswordBox materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFilledPasswordBox}"></PasswordBox>
-                <PasswordBox materialDesign:HintAssist.Hint="Повторите пароль" Style="{StaticResource MaterialDesignFilledPasswordBox}"></PasswordBox>
-                <TextBox materialDesign:HintAssist.Hint="Email" Style="{StaticResource MaterialDesignFilledTextBox}"></TextBox>
-                <Button Content="Зарегистрироваться" Margin="0 20"/>
+                <TextBox x:Name="textBoxLogin" materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}"></TextBox>
+                <PasswordBox x:Name="passwordBox" materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFilledPasswordBox}"></PasswordBox>
+                <PasswordBox x:Name="passwordBoxTry" materialDesign:HintAssist.Hint="Повторите пароль" Style="{StaticResource MaterialDesignFilledPasswordBox}"></PasswordBox>
+                <TextBox x:Name="textBoxEmail" materialDesign:HintAssist.Hint="Email" Style="{StaticResource MaterialDesignFilledTextBox}"></TextBox>
+                <Button Content="Зарегистрироваться" Margin="0 20" Click="Button_Reg_Click"/>
             </StackPanel>
         </Border>
     </Grid>

@@ -9,6 +9,13 @@
 
     <ItemGroup>
       <PackageReference Include="MaterialDesignThemes" Version="4.7.0-ci399" />
+      <PackageReference Include="System.Data.SQLite" Version="1.0.117" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="usersdb.db">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>

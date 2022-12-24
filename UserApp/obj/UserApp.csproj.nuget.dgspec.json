@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nina\\RiderProjects\\UserApp\\UserApp\\UserApp.csproj": {}
+    "C:\\Users\\Nina\\Source\\Repos\\Lynax1P\\User-Simple-Registration\\UserApp\\UserApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nina\\RiderProjects\\UserApp\\UserApp\\UserApp.csproj": {
+    "C:\\Users\\Nina\\Source\\Repos\\Lynax1P\\User-Simple-Registration\\UserApp\\UserApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nina\\RiderProjects\\UserApp\\UserApp\\UserApp.csproj",
+        "projectUniqueName": "C:\\Users\\Nina\\Source\\Repos\\Lynax1P\\User-Simple-Registration\\UserApp\\UserApp.csproj",
         "projectName": "UserApp",
-        "projectPath": "C:\\Users\\Nina\\RiderProjects\\UserApp\\UserApp\\UserApp.csproj",
+        "projectPath": "C:\\Users\\Nina\\Source\\Repos\\Lynax1P\\User-Simple-Registration\\UserApp\\UserApp.csproj",
         "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nina\\RiderProjects\\UserApp\\UserApp\\obj\\",
+        "outputPath": "C:\\Users\\Nina\\Source\\Repos\\Lynax1P\\User-Simple-Registration\\UserApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[4.7.0-ci399, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.117, )"
             }
           },
           "imports": [
@@ -64,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Nina\\.dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
